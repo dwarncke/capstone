@@ -7,3 +7,39 @@
 header {
   border-top: 9px solid #222222;
 }
+
+hr {
+  clear:both;
+}
+
+.circle {
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    border-radius: 100%;
+    background: black;
+    border: 1px solid #F7F7F7;
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px;
+    text-align: center;
+    color: green;
+    font-size: 20px;
+    line-height: 16px;
+    cursor: pointer;
+    transform: rotate(11deg);
+    -ms-transform: rotate(11deg); /* IE 9 */
+    -webkit-transform: rotate(11deg); /* Opera, Chrome, and Safari */
+}
+
+.links {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 30px;
+  color: purple;
+}
+
+.title {
+  font-weight: bolder;
+  font-size:40px;
+}

@@ -11,13 +11,26 @@
 
   <body>
     <header class="row">
-      <div class="col-4">
+      <div class="col-3">
+        <div class="circle">
+    
+        <br />
+
+        <%= link_to 'Home', quiz_index_path %>
+
+        <br />
+
+        </div>
+      </div>
+      <div class="col-4 title">
         Which Schitt'$ Creek Character Are You?
       </div>
       <div class="col-5 links">
-        <%= link_to 'Take the Quiz', new_quiz_path %>
+        <%= link_to 'Take the Quiz!', new_quiz_path %>
       </div>
     </header>
+
+    <hr />
 
     <br class="clear" />
 
