@@ -2,13 +2,13 @@
 
 <br>
 
-<p>Favorite music genre?</p>
+<p>Are you more extroverted or introverted?</p>
 <form class="quiz-form" action="/quiz" method="post">
   <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
-  <input type="radio" name="que[question1]" value="hiphop" > Hip-Hop<br>
-  <input type="radio" name="que[question1]" value="indiepop"> Indie Pop<br>
-  <input type="radio" name="que[question1]" value="rocknroll"> Rock N' Roll<br>
-  <input type="radio" name="que[question1]" value="classical">Classical<br>
+  <input type="radio" name="que[question1]" value="extrovert" > Extroverted<br>
+  <input type="radio" name="que[question1]" value="introvert"> Introverted<br>
+  <input type="radio" name="que[question1]" value="between"> Somewhere in between<br>
+  <input type="radio" name="que[question1]" value="nolabel">Don't label me<br>
 
   <br>
 
@@ -73,4 +73,7 @@
 <br>
 
   <input type="submit">
+
+  <br>
+  
 </form> 
