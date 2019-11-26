@@ -1,10 +1,10 @@
 module QuizHelper
   def self.preferences
      {
-      "Jon Snow" => ["hiphop", "wolf"],
-      "Cersei Lannister" => ["classical", "lion"],
-      "Khaleesi" => ["indiepop", "dragon"],
-      "Bronn" => ["rocknroll", "giraffe"]
+      "David Rose" => ["hiphop", "wolf"],
+      "Moira Rose" => ["classical", "lion"],
+      "Alexis Rose" => ["indiepop", "dragon"],
+      "Stevei Budd" => ["rocknroll", "bear"]
     }
 
   end

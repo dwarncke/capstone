@@ -7,13 +7,16 @@ class QuizController < ApplicationController
 
   def create
     character_counts = {
-      "Jon Snow" => 0,
-      "Cersei Lannister" => 0,
-      "Khaleesi" => 0,
-      "Arya Stark" => 0
-      "Sansa Stark" => 0
-      "Tyrion Lannister" => 0
-      "Margaery Tyrell" => 0
+      "David Rose" => 0,
+      "Alexis Rose" => 0,
+      "Stevie Budd" => 0,
+      "Patrick" => 0,
+      "Ted Mullens" => 0,
+      "Johnny Rose" => 0,
+      "Moira Rose" => 0,
+      "Rowland Schiit" => 0
+
+
 
     }
     quiz_params.values.each do |answer| 
@@ -30,7 +33,7 @@ class QuizController < ApplicationController
   private
 
   def quiz_params
-    params.require(:got).permit(:question1, :question2, :question3, :question4, :question5, :question6, :question7, :question8)
+    params.require(:que).permit(:question1, :question2, :question3, :question4, :question5, :question6, :question7, :question8)
   end
 end
 
