@@ -14,11 +14,9 @@ class QuizController < ApplicationController
       "Ted Mullens" => 0,
       "Johnny Rose" => 0,
       "Moira Rose" => 0,
-      "Rowland Schiit" => 0
-
-
-
+      "Rowland Schitt" => 0
     }
+
     quiz_params.values.each do |answer| 
       QuizHelper.preferences.each do |name, preference|
           if preference.include? answer
@@ -33,7 +31,7 @@ class QuizController < ApplicationController
   private
 
   def quiz_params
-    params.require(:que).permit(:question1, :question2, :question3, :question4, :question5, :question6, :question7, :question8)
+    params.require(:schitt).permit(:question1, :question2, :question3, :question4, :question5, :question6, :question7, :question8)
   end
 end
 
