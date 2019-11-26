@@ -1,1 +1,20 @@
 <h1>Take the Quiz!</h1>
+
+<h2>Radio Buttons</h2>
+
+<p>Favorite music genre?</p>
+<form class="quiz-form" action="/quiz" method="post">
+  <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+  <input type="radio" name="got[question1]" value="hiphop" > Hip-Hop<br>
+  <input type="radio" name="got[question1]" value="indiepop"> Indie Pop<br>
+  <input type="radio" name="got[question1]" value="rocknroll"> Rock N' Roll<br>
+  <input type="radio" name="got[question1]" value="classical">Classical<br>
+
+<p>Favorite Animal?</p>
+  <input type="radio" name="got[question2]" value="wolf"> Wolf<br>
+  <input type="radio" name="got[question2]" value="lion"> Lion<br>
+  <input type="radio" name="got[question2]" value="dragon"> Dragon<br>
+  <input type="radio" name="got[question2]" value="giraffe"> Giraffe<br>
+
+  <input type="submit">
+</form> 
