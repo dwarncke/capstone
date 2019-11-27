@@ -25,6 +25,7 @@ class QuizController < ApplicationController
       end
     end
     p character_counts
+      
     
   end
 
