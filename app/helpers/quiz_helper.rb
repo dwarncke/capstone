@@ -8,7 +8,7 @@ module QuizHelper
       "TedMullens" => ["extrovert", "adventure", "asheville", "western", "casual", "drunk", "europe"],
       "JohnnyRose" => ["activity", "newyorkcity", "romcom", "sophisticated", "noshow", "roadtrip", "lawyer"],
       "MoiraRose" => ["between", "newyorkcity", "drama", "expensive", "drunk", "airbnb", "actor"],
-      "RowlandSchitt" => ["between", "adventure", "colorado", "casual", "chat", "camping", "cafeowner"]
+      "RolandSchitt" => ["between", "adventure", "colorado", "casual", "chat", "camping", "cafeowner"]
     }
 
   end

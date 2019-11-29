@@ -20,7 +20,7 @@ class QuizController < ApplicationController
       "TedMullens" => 0,
       "JohnnyRose" => 0,
       "MoiraRose" => 0,
-      "RowlandSchitt" => 0
+      "RolandSchitt" => 0
     }
 
     quiz_params.values.each do |answer| 
