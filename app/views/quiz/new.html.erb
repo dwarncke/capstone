@@ -1,11 +1,12 @@
-<center>
-<h1>Take the Quiz!</h1>
-
+<br>
 <br>
 
-<p>Are you more extroverted or introverted?</p>
 <form class="quiz-form" action="/quiz" method="post">
   <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+
+  <h1>Take the Quiz!</h1>
+
+<strong><p>Are you more extroverted or introverted?</p></strong>
   <input type="radio" name="schitt[question1]" value="extrovert" > Extroverted<br>
   <input type="radio" name="schitt[question1]" value="introvert"> Introverted<br>
   <input type="radio" name="schitt[question1]" value="between"> Somewhere in between<br>
@@ -13,7 +14,7 @@
 
   <br>
 
-<p>Ideal first date?</p>
+<strong><p>Ideal first date?</p></strong>
   <input type="radio" name="schitt[question2]" value="adventure"> Something adventurous like skydiving or bungee jumping!<br>
   <input type="radio" name="schitt[question2]" value="simple"> Something simple, just dinner and movies<br>
   <input type="radio" name="schitt[question2]" value="dont"> I don't really "do" dates<br>
@@ -21,7 +22,7 @@
 
   <br>
 
-  <p>Where would you most like to live?</p>
+  <strong><p>Where would you most like to live?</p></strong>
   <input type="radio" name="schitt[question3]" value="newyorkcity"> New York City<br>
   <input type="radio" name="schitt[question3]" value="colorado"> Middle of nowhere Colorado<br>
   <input type="radio" name="schitt[question3]" value="asheville"> Asheville, North Carolina<br>
@@ -29,7 +30,7 @@
 
   <br>
 
-  <p>What is your favorite movie genre?</p>
+  <strong><p>What is your favorite movie genre?</p></strong>
   <input type="radio" name="schitt[question4]" value="romcom"> A good Romantic Comedy. The cheesier the better!<br>
   <input type="radio" name="schitt[question4]" value="western"> Western<br>
   <input type="radio" name="schitt[question4]" value="drama"> Critically acclaimed Drama that will most likely be nominated for an Oscar<br>
@@ -37,7 +38,7 @@
 
   <br>
 
-  <p>How would you define your clothing style?</p>
+  <strong><p>How would you define your clothing style?</p></strong>
   <input type="radio" name="schitt[question5]" value="edgy"> Edgy<br>
   <input type="radio" name="schitt[question5]" value="sophisticated"> Sophisticated and cute!<br>
   <input type="radio" name="schitt[question5]" value="expensive"> Expensive<br>
@@ -45,7 +46,7 @@
 
   <br>
 
-  <p>You're at a house party and you do not know a single person. How do you handle yourself?</p>
+  <strong><p>You're at a house party and you do not know a single person. How do you handle yourself?</p></strong>
   <input type="radio" name="schitt[question6]" value="food"> Hang out by the food and beverages until someone strikes up a conversation with me<br>
   <input type="radio" name="schitt[question6]" value="chat"> Just start chatting with anyone and everyone. I've never met a stranger! <br>
   <input type="radio" name="schitt[question6]" value="drunk"> Just get really drunk until I have enough confidence to talk to someone<br>
@@ -53,7 +54,7 @@
 
   <br>
 
-  <p>You have time off from work for a vacation. Where are you going?</p>
+  <strong><p>You have time off from work for a vacation. Where are you going?</p></strong>
   <input type="radio" name="schitt[question7]" value="europe"> Flying first class to Europe! Champagne in Zurich! Shopping in Paris! Romantic evenings in Barcelona!<br>
   <input type="radio" name="schitt[question7]" value="roadtrip"> Taking a road trip to the mountains for some skiing<br>
   <input type="radio" name="schitt[question7]" value="airbnb"> Traveling alone and booking an Airbnb so that I can explore a city that I've never been to<br>
@@ -61,7 +62,7 @@
 
   <br>
 
-  <p>What job would you like the most?</p>
+  <strong><p>What job would you like the most?</p></strong>
   <input type="radio" name="schitt[question8]" value="cafeowner"> Owning a small town cafe or bar. I love the simple life!<br>
   <input type="radio" name="schitt[question8]" value="lawyer"> Powerful lawyer at a PR conglomerate<br>
   <input type="radio" name="schitt[question8]" value="curator"> An art curator at a museum in a big city<br>
@@ -71,7 +72,9 @@
 
   <input type="submit">
 
-  <br/>
-
 </form> 
-</center>
+
+<br>
+<br>
+
+

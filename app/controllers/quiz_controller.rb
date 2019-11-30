@@ -41,14 +41,8 @@ class QuizController < ApplicationController
       end
     end
 
-
-
      redirect_to results_path({character: chosen_name})
-
-
-
-     
-    
+        
   end
 
   private

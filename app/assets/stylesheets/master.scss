@@ -1,36 +1,25 @@
 @import "bootstrap";
 
-.clear {
-  clear: both;
-}
 
-header {
-  border-top: 9px solid #222222;
+
+.title {
+  font-family: 'Noto Sans', sans-serif;
+  color: white;
+  font-size: 30px;
 }
 
 hr {
   clear:both;
 }
 
-.h1 {
-  font-family: 'Poppins', sans-serif;
-}
-
-.h2{
-  font-family: 'Poppins', sans-serif;
-}
 
 .links {
   font-weight: bold;
   font-style: italic;
   font-size: 30px;
+  color: white;
 }
 
-.title {
-  font-family: sans-serif;
-  font-weight: bolder;
-  font-size:40px;
-}
 
 .hero {
   background: image_url('schittscreek2.jpg');
@@ -41,25 +30,31 @@ hr {
   height: 370px;
 }
 
-h1, h2, h3, h4, h5, h6, .navbar {
-  margin: 0;
+body {
+  background: image_url('unsplash2.jpg');
 }
 
-.navbar {
-  font-family: "Helvetica Neue", Helvetica;
-  font-weight: 200;
-  box-shadow: 0px 1px 3px #2a2a2a;
-}
-
-.navbar-inverse a.navbar-brand {
-  font-family: "Helvetica Neue", Helvetica;
-  font-weight: 100;
+h1 {
+  font-family: 'Noto Sans', sans-serif;
   color: white;
 }
 
-body {
-  background: image_url('unsplash.jpg');
+h2 {
+  font-family: 'Noto Sans', sans-serif;
+  color: white;
 }
+
+p {
+  font-family: 'Noto Sans', sans-serif;
+  color: white;
+}
+
+form {
+  font-family: 'Noto Sans', sans-serif;
+  padding-left: 10%;
+  color: white;
+}
+
 
 
 
