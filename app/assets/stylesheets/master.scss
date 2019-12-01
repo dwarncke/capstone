@@ -1,6 +1,8 @@
 @import "bootstrap";
 
-
+hr {
+  clear:both;
+}
 
 .title {
   font-family: 'Noto Sans', sans-serif;
@@ -8,20 +10,33 @@
   font-size: 30px;
 }
 
-hr {
-  clear:both;
+.navbar {
+  box-shadow: 0px;
 }
 
+header {
+  background: image_url('wheat.png');
+  font-family: 'Noto Sans', sans-serif;
+  border-top: 15px solid #f0f2f5;
+  border-bottom: 15px solid #f0f2f5;
+}
 
 .links {
-  font-weight: bold;
-  font-style: italic;
-  font-size: 30px;
+  padding-left: 5%;
+}
+
+.links a {
+  font-size: 25px;
   color: white;
 }
 
+iframe {
+  border: 15px solid #f0f2f5
+}
 
 .hero {
+  border-top: 15px solid #f0f2f5;
+  border-bottom: 15px solid #f0f2f5;
   background: image_url('schittscreek2.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -54,6 +69,8 @@ form {
   padding-left: 10%;
   color: white;
 }
+
+
 
 
 
